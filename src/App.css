@@ -1,0 +1,65 @@
+.body {
+  background-color: aqua;
+}
+.app-bar {
+  background: #3498db;
+}
+
+/* Add Task button styles */
+.add-button {
+  background: #3f51b5;
+  color: #fff;
+}
+
+/* Paper (Todo List) styles */
+.todo-list {
+  background: #f2f3f4;
+  padding: 20px;
+}
+
+/* List Item styles */
+.list-item {
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Complete/Pending label styles */
+.status-label {
+  width: 70px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #fff;
+}
+
+/* Complete status styles */
+.complete {
+  background: #4caf50;
+}
+
+/* Pending status styles */
+.pending {
+  background: #f44336;
+}
+
+/* Delete button styles */
+.delete-button {
+  background: #f44336;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.IconButton {
+  display: flex;
+  justify-content: right;
+  padding: 500px;
+}
